@@ -42,8 +42,6 @@
 
 \usepackage[some]{background}
 %\backgroundsetup{contents={\includegraphics[width=0.8\textwidth]{images/logos.eps}},scale=1,placement=top,opacity=0.13,position={7.9cm,2.2cm}}
-%\backgroundsetup{contents={\includegraphics[width=0.3\textwidth]{images/logos1.eps}},scale=1.8,placement=top,opacity=0.13,position={4.3cm,1cm}}
-\backgroundsetup{contents={\includegraphics[width=0.3\textwidth]{images/UNAM.png}},scale=.6,placement=top,opacity=0.13,position={15cm,2.9cm}}
 
 \usepackage{titlesec} % Used to customize the \section command
 \titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
@@ -80,14 +78,16 @@
 \par{\centering{\Large \textsc{\hspace{2cm}Curriculum Vitae}}\bigskip\par}
 \smash{\includegraphics[width=2.5cm]{images/fotoinfantil.png}}
 \par{\centering{\large \textsc{\hspace{2cm}
-			{\color{red}Data Scientist I at Rackspace Technology, BSc in Physics}}}\bigskip\par}
+			{\color{red}Data Scientist at Rackspace Technology, BSc in Physics}}}\bigskip\par}
 % \par{\centering{\small \textsc{\hspace{2cm}
 % 			{\color{red}First two pages are the most important ones}}}\bigskip\par}
 
+\bigskip
 \section{Personal Statement}
 \bigskip
 Learned to program throughout the Physics career, mainly in scientific computing topics. Hands-on experience applying Machine Learning algorithms to real business problems. Excellent usage of GNU / Linux systems and knowledge of object-oriented programming languages such as Python and C++. I have also worked in the academic field as a teacher assistant, teaching mathematics, computer science, physics and other topics at a university level. Good understanding of algorithms and data structures.
 
+\bigskip
 \section{Personal Data}
 \bigskip
 \begin{tabular}{rl}
@@ -103,17 +103,20 @@ Learned to program throughout the Physics career, mainly in scientific computing
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
-
+\bigskip
 \section{Education}
 \bigskip
-\subsection*{Physics}
-
 \begin{tabular}{r|p{14.5cm}}	
 	
-%------------------------------------------------	
+	%------------------------------------------------	
+	\textsc{Present} & \textbf{MSc in Scientific Computing and Data Analysis}, Department of Computer Science, Durham University, \small Durham, United Kingdom.\\
+	\textsc{2021} & Specialization: Astrophysics\\
+	&\normalsize \textsc{Overall Score}: -\hyperlink{grdsmsc}{\hfill | \footnotesize Detailed List of Grades}\\
+	\multicolumn{2}{c}{}\\
+
 %------------------------------------------------	
 	
-	\textsc{2018} & \textbf{Bachelor of Science in \textsc{\large{Physics}}}, Faculty of Science, National Autonomous University of Mexico (UNAM), \small Mexico City, Mexico.\\
+	\textsc{2018} & \textbf{BSc in Physics}, Faculty of Science, National Autonomous University of Mexico (UNAM), \small Mexico City, Mexico.\\
 	\textsc{2011} & Thesis: \emph{``Numerical Study of Vlasov Equation in the Schwarzschild Metric''}\\
 	&\small Description: Creation of a finite differences scheme that evolves the relativistic Vlasov equation on a\\
 	&\hspace{1.7cm} \small black hole metric background, assuming this is an advective equation, with velocities \\
@@ -152,19 +155,18 @@ Learned to program throughout the Physics career, mainly in scientific computing
 %----------------------------------------------------------------------------------------
 %	LANGUAGES
 %----------------------------------------------------------------------------------------
-
 \section{Languages}
 \bigskip
 \begin{tabular}{rl}
 	\textsc{English:} & C1 Level - IELTS (2021)\\
-	
-	\textsc{Spanish:} & Mothertongue
+	\textsc{Spanish:} & Mothertongue \\
+	\textsc{French:} & Basic
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS AND ACTIVITIES
 %----------------------------------------------------------------------------------------
-
+\bigskip
 \section{Interests and Activities}
 \bigskip
 \subsection*{Academic}
@@ -181,7 +183,7 @@ Science Fiction and Fantasy Reading, Running, Swimming, Playing the Guitar, Trav
 
 \subsection{Short Description}
 \vspace{0.2cm}
-\textbf{Jul 2020 - Present}. Current job as a Data Scientist I at Rackspace Technology. I helped on the migration of data from on-premises servers to the GCP cloud. I worked on a churn prediction model that uses features related to the COVID19 spreading aside from other business-related features to predict customer attrition, this work includes the development of the model using XGBoost, as well as the deployment of it using Kubeflow and the serving via Seldon Core. I’m also involved in constructing an SSAS OLAP Cube to be used by the company for inventory-related queries. I'm currently working on NLP tasks, such as the extraction of themes out of tickets using semantic similarity, by getting embeddings vectors out of sentences with a transformer architecture named Universal Sentence Encoder. I'm reading research on how to translate voice to text. I build two production-level applications using Plotly Dash.
+\textbf{Jul 2020 - Present}. Current job as a Data Scientist at Rackspace Technology. I helped on the migration of data from on-premises servers to the GCP cloud. I worked on a churn prediction model that uses features related to the COVID19 spreading aside from other business-related features to predict customer attrition, this work includes the development of the model using XGBoost, as well as the deployment of it using Kubeflow and the serving via Seldon Core. I’m also involved in constructing an SSAS OLAP Cube to be used by the company for inventory-related queries. I'm currently working on NLP tasks, such as the extraction of themes out of tickets using semantic similarity, by getting embeddings vectors out of sentences with a transformer architecture named Universal Sentence Encoder. I'm reading research on how to translate voice to text. I build two production-level applications using Plotly Dash.
 
 \textbf{Dec 2019 - Jun 2020}. I worked on a face recognition system using a method called Sparse Representation and another one using Neural Networks. I acquired a deep understanding of Neural Networks for Face Detection and Recognition, Image Classification, Language Processing, among others, as well as some experience in Data Visualization tools such as Tableau.
 
@@ -307,7 +309,7 @@ Semester 2016-1 & Teacher Assistant A at \textsc{Faculty of Science, UNAM} &\\
 %----------------------------------------------------------------------------------------
 %	CONFERENCES, SUMMER SCHOOLS AND WORKSHOPS ASSISTED
 %----------------------------------------------------------------------------------------
-
+\bigskip
 \section{Conferences, Courses, Schools and Workshops Attended}
 \bigskip
 \subsection*{Computer Science Related}
@@ -342,6 +344,11 @@ Semester 2016-1 & Teacher Assistant A at \textsc{Faculty of Science, UNAM} &\\
 	% &\url{}\\
 	% \multicolumn{2}{c}{} \\
 
+	\textsc{Sep 02, 2021} & \small \textbf{Course}. \textit{Probability - The Science of Uncertainty and Data}\\
+	\textsc{May 03, 2021} & \small MITx on edX\\
+	&\url{https://courses.edx.org/certificates/77ed32f3abc34158896ab5f2ee6d18be}\\
+	\multicolumn{2}{c}{} \\
+
 	\textsc{Oct 09, 2020} & \small \textbf{Conference}. \textit{THE Data Science Conference}\\
 	\textsc{Oct 08, 2020} & \small Online conference due to COVID19\\
 	&\url{https://www.thedatascienceconference.com}\\
@@ -353,13 +360,18 @@ Semester 2016-1 & Teacher Assistant A at \textsc{Faculty of Science, UNAM} &\\
 	\textsc{Oct 08, 2020} & \small Google Cloud Platform\\
 	&\url{https://www.coursera.org/account/accomplishments/certificate/ZNG729Z9L78P}\\
 	\multicolumn{2}{c}{} \\
-
+				
+		
 	%------------------------------------------------
 
 	\textsc{Oct 08, 2020} & \small \textbf{Course}. \textit{Modernizing Data Lakes and Data Warehouses with GCP} (COURSERA)\\
 	\textsc{Oct 07, 2020} & \small Google Cloud Platform\\
 	&\url{https://www.coursera.org/account/accomplishments/certificate/JUDDNMKRSBUA}\\
 	\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+\begin{tabular}{r|p{11cm}}
 
 	%------------------------------------------------
 	
@@ -368,10 +380,7 @@ Semester 2016-1 & Teacher Assistant A at \textsc{Faculty of Science, UNAM} &\\
 	&\url{https://www.coursera.org/account/accomplishments/certificate/8KTYPM3GZQS7}\\
 	\multicolumn{2}{c}{} \\
 	%------------------------------------------------	
-				
-\end{tabular}
 
-\begin{tabular}{r|p{11cm}}
 	\textsc{Sep 10, 2020} & \small \textbf{Course}. \textit{Smart Analytics, Machine Learning, and AI on GCP} (COURSERA)\\
 	\textsc{Sep 01, 2020} & \small Google Cloud Platform\\
 	&\url{https://www.coursera.org/account/accomplishments/certificate/LAZ8CNLM2M5A}\\
@@ -445,6 +454,11 @@ Semester 2016-1 & Teacher Assistant A at \textsc{Faculty of Science, UNAM} &\\
 	&\url{https://www.coursera.org/account/accomplishments/certificate/FBZ5SK3E9BB6}\\
 	\multicolumn{2}{c}{} \\
 
+	
+\end{tabular}
+
+\begin{tabular}{r|p{11cm}}
+
 	%------------------------------------------------
 	
 	\textsc{Apr 17, 2019} & \small \textbf{Course}. \textit{Operating Systems and You: Becoming a Power User} (COURSERA)\\
@@ -457,9 +471,7 @@ Semester 2016-1 & Teacher Assistant A at \textsc{Faculty of Science, UNAM} &\\
 	\textsc{Mar 08, 2019} & \small University of Michingan, Michigan, United States.\\
 	&\url{https://www.coursera.org/account/accomplishments/certificate/L6Y7MZQDAJHP}\\
 	\multicolumn{2}{c}{} \\
-\end{tabular}
-
-\begin{tabular}{r|p{11cm}}
+	
 	%------------------------------------------------
 	
 	\textsc{Feb 26, 2019} & \small \textbf{Course}. \textit{Programming for Everybody (Getting Started with Python)} (COURSERA)\\
@@ -635,18 +647,13 @@ Semester 2016-1 & Teacher Assistant A at \textsc{Faculty of Science, UNAM} &\\
 	\textsc{LinkedIn:} & \href{https://www.linkedin.com/in/charles-n-mueller/}{https://www.linkedin.com/in/charles-n-mueller/}\\
 	\multicolumn{2}{c}{} \\
 	\textsc{Name:} & Dr. Fernando Herrera \\
-	\textsc{Occupation:} & Senior Data Scientist at Revolut\\
+	\textsc{Occupation:} & Senior Data Engineer at Revolut\\
 	\textsc{LinkedIn:} & \href{https://www.linkedin.com/in/fernando-jose-herrera-elizalde-76a32790/}{https://www.linkedin.com/in/fernando-jose-herrera-elizalde-76a32790/}\\
 	\multicolumn{2}{c}{} \\
 	\textsc{Name:} & Dr. Miguel Alcubierre \\
 	\textsc{Institution Name:} & Institute of Nuclear Sciences, UNAM.\\
 	\textsc{Occupation:} & Director, Researcher, Teacher\\
 	\textsc{email:} & \href{mailto:malcubi@nucleares.unam.mx}{malcubi@nucleares.unam.mx}\\
-	\multicolumn{2}{c}{} \\
-	\textsc{Name:} & Dr. Alejandro Villarreal \\
-	\textsc{Institution Name:} & Faculty of Science, UNAM.\\
-	\textsc{Occupation:} & Researcher, Teacher\\
-	\textsc{email:} & \href{mailto:alejandro.v@ciencias.unam.mx}{alejandro.v@ciencias.unam.mx}\\
 	\multicolumn{2}{c}{} \\
 \end{tabular}
 \vspace{0cm}
@@ -662,7 +669,22 @@ Semester 2016-1 & Teacher Assistant A at \textsc{Faculty of Science, UNAM} &\\
 %----------------------------------------------------------------------------------------
 
 \newpage
-\par{\centering\LARGE \hypertarget{grdsbach}{Bachelor of Science in \textsc{Physics}}\par}\par{\centering\Large National Autonomous University of Mexico (UNAM)\par}\large{\centering Grades\par}\small
+\par{\centering\LARGE \hypertarget{grdsmsc}{Master of Science in Scientific Computing and Data Analysis}\par}\par{\centering\Large Durham University\par}\large{\centering Grades\par}\small
+\bigskip
+\bigskip
+\bigskip
+\begin{center}
+\begin{tabular}{lcc}
+\multicolumn{1}{c}{\textsc{Course}} & \textsc{Grade}&\textsc{Credits}\\ \hline \\
+ &  & \\
+& Total Credits & - \\ \\
+&\textsc{Overall Score}& -
+\end{tabular}
+\end{center}
+\vspace{5cm}
+
+\newpage
+\par{\centering\LARGE \hypertarget{grdsbach}{Bachelor of Science in Physics}\par}\par{\centering\Large National Autonomous University of Mexico (UNAM)\par}\large{\centering Grades\par}\small
 \bigskip
 \bigskip
 \bigskip
