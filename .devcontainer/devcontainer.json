@@ -1,0 +1,7 @@
+{
+	"name": "curriculum_vitae_container",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	}
+}
