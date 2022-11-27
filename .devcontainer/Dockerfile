@@ -18,6 +18,6 @@ ARG USER_GID=$USER_UID
 # Configure apt and install packages
 RUN apt-get update -y \
     && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get install texlive-full -y
+    && apt-get install texlive-full git -y
 
-COPY install_fonts /install_fonts
+COPY install_fonts ~/.fonts
