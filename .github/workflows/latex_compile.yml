@@ -1,0 +1,28 @@
+name: LaTeX Compile
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install LaTeX
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y install texlive-full
+        cp install_fonts/* /usr/share/fonts/
+
+    - name: Compile LaTeX
+      run: xelatex cvEnglish.tex
