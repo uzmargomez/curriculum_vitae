@@ -5,9 +5,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - cvEnglish.tex
   pull_request:
     branches:
       - main
+    paths:
+      - cvEnglish.tex
 
 jobs:
   build:
